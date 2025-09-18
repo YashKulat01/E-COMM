@@ -368,6 +368,7 @@ body {
 .socialSec,
 .companySec,
 .officeAddSec{
+    flex: 1;
     padding: 6px;
 }
 
