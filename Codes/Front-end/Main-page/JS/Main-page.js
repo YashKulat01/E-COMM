@@ -28,8 +28,13 @@ function closeCategory() {
 // User section -----------------------------------------------------------
 const user_image = document.getElementById('userImg');
 const user_section = document.getElementById('userDD');
+const close_userSection = document.getElementById('closeBtn')
 
 function openUserSec() {
     user_section.style.display = 'block';
+}
+
+function closeUserSec(){
+    user_section.style.display = 'none';
 }
 
