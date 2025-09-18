@@ -199,6 +199,14 @@ body {
     text-align: center;
 }
 
+.closeBtnSec{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
 .userSecDropDown h3{
     color: white;
 }
