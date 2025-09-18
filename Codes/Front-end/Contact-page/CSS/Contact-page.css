@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 15px;
+    background-color: rgb(115, 185, 238);
+}
+
+.mainStruc {
+    width: 100%;
+}
+
+/* ---- Header Sec-------------------------- */
+
+.headerContainer {
+    height: 40px;
+    padding: 6px 10px;
+}
+
+.headerSec {
+    display: flex;
+    height: 40px;
+}
+
+/* ---- Header sec>left sec --------------*/
+
+.leftSec {
+    flex: 1;
+}
+
+.webLogo {
+    border-radius: 6px;
+}
+
+/* ---- Header sec>right sec --------------*/
+
+.rightSec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.linksSec {
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+}
+
+.links a {
+    padding: 0 7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.links a:hover {
+    color: rgb(235, 235, 235);
+}
+
+/* ---- HR sec ---------------------------*/
+
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    border: none;
+}
+
+/* ---- Body Sec ------------------------------- */
+
+.bodyContainer {
+    padding: 60px 60px;
+}
+
+/* ---- Body Sec> contact heading sec */
+.contactHeading {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.contactHeading p {
+    margin: 0;
+}
+
+.contactText {
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+/* ---- Body Sec> contact heading sec> Info Sec */
+
+.infoSec {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+/* ---- Body Sec> contact heading sec> Info Sec > store add sec*/
+
+.storeAddSec {
+    flex: 1;
+    color: white;
+}
+
+.storeAddSec h3 {
+    font-size: 25px;
+}
+
+.storeAddSec p {
+    font-size: 17px;
+    margin: 6px;
+}
+
+/* ---- Body Sec> contact heading sec> Info Sec> Office add sec */
+
+.officeAddSec {
+    flex: 1;
+    color: white;
+}
+
+.officeAddSec h3 {
+    font-size: 25px;
+}
+
+.officeAddSec p {
+    font-size: 17px;
+    margin: 6px;
+}
+
+/* ---- Body Sec> contact heading sec> Info Sec > contact sec */
+
+.contactSec {
+    flex: 1;
+    margin: 25px 0;
+    color: white;
+}
+
+.contactSec p {
+    font-size: 17px;
+    margin: 6px;
+}
+
+/* ---- Map Section --------------------------------------------------*/
+.mapSec {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.map {
+    width: 100%;
+    height: 550px;
+    border-radius: 24px;
+}

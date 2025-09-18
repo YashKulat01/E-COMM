@@ -1,0 +1,65 @@
+*E-Commerce website like amazon.
+*-----------------------------------------------------------*
+
+E-Commerce :
+
+=>online marketplaces like Amazon, eBay, and Alibaba, which   connect buyers and sellers, as well as specialized   platforms such as Etsy for handmade goods and Zappos for   shoes, alongside services like Airbnb for accommodations   and Upwork for freelance work. Online shopping via websites   or apps, electronic payments, and online auctions are also   common forms of e-commerce.
+
+=>Electronic commerce, or e-commerce, is the buying and   selling of goods and services over the internet. E-commerce   can be conducted on computers, tablets, smartphones, and   other smart devices. Nearly every imaginable product and   service is now available through e-commerce, and it has   upended how many companies and entire industries do   business.
+
+-------------------------------------------------------------
+
+*Key Points..
+=>E-commerce is the buying and selling of goods and services   over the internet.
+
+=>It is conducted over computers, tablets, smartphones, and     other smart devices.
+  
+=>Almost anything can be purchased through e-commerce today,    and it has lowered the barriers to entry for many types of    businesses, such as retailers.
+=>E-commerce can be a substitute for brick-and-mortar stores,   though some businesses choose to maintain both.
+  
+=>E-commerce operates in several market segments, including     business-to-business, business-to-consumer, consumer-to-    consumer, and consumer-to-business.
+
+-------------------------------------------------------------
+
+*Understanding E-commerce
+
+As noted above, e-commerce is the process of buying and selling products and services online. But it involves more than simply a buyer and a seller, relying on a vast, often invisible, infrastructure to keep it running.
+
+E-commerce has helped companies (especially those with a narrow reach, like small, local businesses) gain access to a wider market by providing cheaper and more efficient sales and distribution channels for their products or services.
+
+While some businesses exist entirely online, others straddle the real and virtual worlds. Target (TGT), for example, is one of many giant retailers that has supplemented its brick-and-mortar presence with an online store that allows customers to purchase everything from clothes and coffeemakers to toothpaste and action figures without leaving their homes.
+
+-------------------------------------------------------------
+
+*History of E-commerce
+
+Most of us have shopped online for something at some point, which means we've taken part in e-commerce. So it goes without saying that e-commerce is everywhere. But very few people may know that e-commerce has a history that predates the internet.
+
+E-commerce actually goes back to the 1960s, when companies used an electronic system called the Electronic Data Interchange to facilitate the transfer of documents. It wasn't until 1994 that the very first transaction took place. This involved the sale of a CD between friends through an online retail website called NetMarket.
+1
+Cyberchimps. "What Is An E-commerce Website & How to Build One (2021)."
+
+
+The industry has evolved rapidly since then, with companies like Alibaba and Amazon becoming household names around the world. The introduction of free shipping, which, at least on the surface, reduces costs for consumers, has also helped increase the popularity of the e-commerce industry.
+
+------------------------------------------------------------
+
+*Advantages and Disadvantages of E-commerce
+
+*Advantages
+E-commerce offers buyers and sellers a number of advantages:
+
+Convenience: E-commerce can happen 24 hours a day, seven days a week. Consumers can buy at their convenience, and business owners can make sales while they sleep.
+Increased selection: Many stores offer a wider array of products online than they could ever carry in their brick-and-mortar counterparts. And many stores that solely exist online offer consumers exclusive inventory that is unavailable elsewhere.
+Potentially lower start-up costs: E-commerce companies may require a warehouse or manufacturing site, but they usually don't need a physical storefront. The cost to operate digitally is often less expensive than needing to pay rent, insurance, building maintenance, and property taxes.
+International sales: As long as an e-commerce store can find a way to ship its products to its customers, it can sell to anyone in the world and isn't limited by physical geography.
+Opportunity to collect valuable data: Willingly or unknowingly, consumers share a lot of information on their interests and shopping habits when they buy or even just browse online. Site owners can monetize this data in a number of ways, using it themselves and selling it to others.
+
+*Disadvantages
+There are also some drawbacks that come with e-commerce. Those can include:
+
+Limited customer service: If you shop online for a computer, you cannot simply ask an employee to demonstrate a particular model's features in person. And although some websites let you chat online with a staff member, that is not a typical practice. A disadvantage for shoppers, this can also be a money-saver for retailers.
+Lack of instant gratification: When you buy an item online, you must wait for it to be shipped to your home or office. However, e-tailers like Amazon now make the waiting game a little bit less painful by offering same-day delivery as a premium option for select products.
+Inability to touch products: Online images do not necessarily convey the whole story about an item, and e-commerce purchases can be disappointing when the items don't live up to the buyer's expectations. Case in point: an item of clothing may be made from shoddier fabric than its online image indicates.
+Dependence on technology: If a website crashes or must be temporarily taken down for any reason, the business is effectively closed until things return to normal.
+Greater competition: Although the low cost of starting an e-commerce business can be an advantage, it also means means competitors can just as easily enter the market.

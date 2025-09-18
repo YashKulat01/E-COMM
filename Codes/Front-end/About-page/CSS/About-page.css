@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 15px;
+    background-color: rgb(115, 185, 238);
+}
+
+.mainStruc {
+    width: 100%;
+}
+
+/* ---- Header Sec-------------------------- */
+
+.headerContainer {
+    height: 40px;
+    padding: 6px 10px;
+}
+
+.headerSec {
+    display: flex;
+    height: 40px;
+}
+
+/* ---- Header sec>left sec --------------*/
+
+.leftSec {
+    flex: 1;
+}
+
+.webLogo {
+    border-radius: 6px;
+}
+
+/* ---- Header sec>right sec --------------*/
+
+.rightSec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.linksSec {
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+}
+
+.links a {
+    padding: 0 7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.links a:hover {
+    color: rgb(235, 235, 235);
+}
+
+/* ---- HR sec ---------------------------*/
+
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    border: none;
+}
+
+/* ---- About sec -------------- */
+
+.aboutUsSec {
+    position: absolute;
+    z-index: 0;
+    width: auto;
+    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    border-radius: 20px;
+    animation: move 1.5s;
+    background-color: #fff;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(400px);
+    }
+
+    100% {
+        transform: translateX();
+    }
+}
+
+/* ---- About sec>heading sec ---------*/
+
+.heading {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+/* ---- About sec>quotePara sec ------ */
+
+.quotePara {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.quotePara ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quotePara li {
+    padding-bottom: 10px;
+}

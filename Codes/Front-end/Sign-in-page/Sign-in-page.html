@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | E-COMM</title>
+    <link rel="icon" href="/Codes/Front-end/assets/Shopping-cart.png">
+    <link rel="stylesheet" href="/Codes/Front-end/Sign-in-page/CSS/Sign-in-page.css">
+</head>
+
+<body>
+    <main class="mainStruc">
+        <div class="bodyContainer">
+            <div class="container">
+                <form action="" id="signInForm">
+                    <div class="formIcon">
+                        <a href="/Codes/Front-end/Home-page/index.html">
+                            <img src="/Codes/Front-end/assets/Shopping-cart-2.png" title="click here to go homepage"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="signInSec">
+                        <h1>
+                            Sign In
+                        </h1>
+                        <p>
+                            Welcome Back!! Please Enter your details
+                        </p>
+                        <p id="errorMsg"></p>
+                        <hr class="bodyHr">
+
+                        <div>
+                            <label for="email">
+                                <b>
+                                    Email
+                                </b>
+                            </label><br>
+                            <input type="email" id="emailField" placeholder="Enter email" name="email"><br>
+                        </div>
+
+                        <div>
+                            <label for="password">
+                                <b>
+                                    Password
+                                </b>
+                            </label><br>
+
+                            <input type="password" id="passField" placeholder="Enter password" name="password">
+                        </div>
+                        <p>
+                            New Here ?
+                            <a href="/Codes/Front-end/Sign-up-page/Sign-up-page.html" style="color:rgb(245, 245, 245)">
+                                Create an Account
+                            </a>.
+                        </p>
+                        <div class="signBtnSec">
+                            <button class="signInBtn" onclick="mainPgTravel()" title="Sign In">
+                                Sign In
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="/Codes/Front-end/Sign-in-page/JS/Sign-in-page.js" defer></script>
+</body>
+
+</html>

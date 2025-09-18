@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | E-COMM</title>
+    <link rel="icon" href="/Codes/Front-end/assets/Shopping-cart.png">
+    <link rel="stylesheet" href="/Codes/Front-end/Sign-up-page/CSS/Sign-up-page.css">
+</head>
+
+<body>
+    <main class="mainStruc">
+        <div class="bodyContainer">
+            <div class="container">
+
+                <form action="" id="signInForm">
+                    <div class="formIcon">
+                        <a href="/Codes/Front-end/Home-page/index.html" >
+                            <img src="/Codes/Front-end/assets/Shopping-cart-2.png" title="click here to go homepage" alt="">
+                        </a>
+                    </div>
+                    <div class="signUpSec">
+                        <h1>
+                            Sign Up
+                        </h1>
+                        <p>
+                            Please fill in this form to create an account.
+                        </p>
+                        <p id="errorMsg"></p>
+                        <hr class="bodyHr">
+                        <div>
+                            <label for="uName">
+                                <b>
+                                    Username
+                                </b>
+                            </label><br>
+                            <input type="text" id="uNameField" placeholder="Enter username" name="uName"><br>
+                        </div>
+
+                        <div>
+                            <label for="email">
+                                <b>
+                                    Email
+                                </b>
+                            </label><br>
+                            <input type="email" id="emailField" placeholder="Enter email" name="email"><br>
+                        </div>
+
+                        <div>
+                            <label for="password">
+                                <b>
+                                    Password
+                                </b>
+                            </label><br>
+
+                            <input type="password" id="passField" placeholder="Enter password" name="password">
+                        </div>
+
+                        <div>
+                            <label for="password">
+                                <b>
+                                    Confirm Password
+                                </b>
+                            </label><br>
+                            <input type="password" id="confirmPassField" placeholder="Confirm password" name="password">
+                        </div>
+
+                        <p>
+                            Already have an Account ?
+                            <a href="/Codes/Front-end/Sign-in-page/Sign-in-page.html" style="color:rgb(245, 245, 245)">
+                                Sign in
+                            </a>.
+                        </p>
+
+                        <p style="height: auto;">
+                            <input type="checkbox" id="cbField" name="checkbox"
+                                style="height: auto; width: auto; margin: 0;">
+                            <label for="checkbox">
+                                By creating an account you agree to our
+                            </label>
+                            <a href="/Codes/Front-end/T&P-page/T&P-page.html" style="color:rgb(245, 245, 245)">
+                                Terms & Policy
+                            </a>.
+                        </p>
+
+                        <div class="signBtnSec">
+                            <button class="signUpBtn" onclick="mainPgTravel()" title="Sign Up">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="/Codes/Front-end/Sign-up-page/JS/sign-up-page.js" defer></script>
+</body>
+
+</html>
