@@ -359,6 +359,17 @@ body {
     background-color: rgb(82, 168, 235);
 }
 
+/*---- Go-To-Top Section -------------------------------------------------------------- */
+
+.goToTopBtnSec{
+    display: flex;
+    justify-content: center;
+}
+
+.gotToTopBtn{
+    flex: 1;
+    width: 100%;
+}
 
 /* ---- Footer sec */
 
