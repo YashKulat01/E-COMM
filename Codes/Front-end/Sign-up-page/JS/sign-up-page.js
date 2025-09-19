@@ -79,3 +79,23 @@ allInputs.forEach(input => {
     })
 })
 
+// Get user values functions....
+
+function getUserValues() {
+    const username_input = document.getElementById('uNameField').value;
+    const username_value = username_input;
+    console.log("Username: ",username_value);
+
+    const email_input = document.getElementById('emailField').value;
+    const email_value = email_input;
+    console.log("Email: ",email_value);
+
+    const password_input = document.getElementById('passField').value;
+    const password_value = password_input;
+    console.log("Password: ",password_value);
+
+    const confirmPassword_input = document.getElementById('confirmPassField').value;
+    const confirmPassword_value = confirmPassword_input;
+    console.log("Confirm Password: ",confirmPassword_value);
+    
+}
