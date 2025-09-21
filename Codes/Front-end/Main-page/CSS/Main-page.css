@@ -274,7 +274,6 @@ a {
     display: block;
 }
 
-
 .sliderSec h1 {
     font-size: 60px;
     margin: 20px 10px;
@@ -315,7 +314,7 @@ a {
     text-decoration: none;
     color: white;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
