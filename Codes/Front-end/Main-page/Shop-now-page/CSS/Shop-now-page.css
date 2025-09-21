@@ -94,6 +94,10 @@ body {
     color: rgb(255, 255, 255); 
 }
 
+.logoSec a{
+    padding: 0px;
+}
+
 .webLogo {
     border-radius: 6px;
 }
