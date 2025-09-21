@@ -251,14 +251,16 @@ body {
 
 /* ---- body sec ------------------------------------------ */
 
-.slider{
+.sliderSec{
     text-align: center;
     width: auto;
     padding: 40px;
     color: white;
 }
 
-.slider h1{
+
+
+.sliderSec h1{
     font-size: 60px;
     margin: 20px 10px;
 }
@@ -286,17 +288,6 @@ body {
     font-size: 15px;
 }
 
-.slides{
-    position: relative;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider img{
-    width: 100%;
-    display: none;
-}
 
 /*---- Grid Section ------------------------------ */
 
