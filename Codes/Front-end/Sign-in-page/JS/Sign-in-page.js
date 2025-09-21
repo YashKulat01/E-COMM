@@ -9,6 +9,7 @@ form.addEventListener('submit', (e) => {
 
     let erros = []
     let valid = true;
+    let signIn = false;
     if (email_input) {
         erros = getSignFormErros(email_input.value, password_input.value,)
     }
@@ -20,6 +21,7 @@ form.addEventListener('submit', (e) => {
     }
     if (valid) {
         e.preventDefault();
+        signIn = true;
         window.location.href = "/Codes/Front-end/Main-page/Main-page.html";
     }
 })
