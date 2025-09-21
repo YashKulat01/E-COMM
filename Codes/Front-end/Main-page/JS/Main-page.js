@@ -9,7 +9,7 @@ function showSidebar() {
 }
 
 function closeSideBar() {
-    sidebar_sec.style.display ='none';
+    sidebar_sec.style.display = 'none';
 }
 
 // All categories Section ---------------------------------------- 
@@ -18,11 +18,11 @@ const categories_button = document.getElementById('categoryBtn');
 const categories_section = document.getElementById('CategoriesDD');
 const close_category = document.getElementById('closeCategory')
 function openCategory() {
-    categories_section.style.display ="block";
+    categories_section.style.display = "block";
 }
 
 function closeCategory() {
-    categories_section.style.display ="none";
+    categories_section.style.display = "none";
 }
 
 // User section -----------------------------------------------------------
@@ -34,7 +34,22 @@ function openUserSec() {
     user_section.style.display = 'block';
 }
 
-function closeUserSec(){
+function closeUserSec() {
     user_section.style.display = 'none';
 }
 
+// Automatic Slider section----------------------------------------------
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change every 3 seconds
+}
