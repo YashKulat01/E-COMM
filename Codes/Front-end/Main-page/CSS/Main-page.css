@@ -304,6 +304,11 @@ a {
     background-color: #f1f1f1;
 }
 
+.cardSec-elem:hover{
+    box-shadow: 0 0 10px 10px rgb(97, 97, 97);
+    transition: 0.5s;
+}
+
 .cardSecContainer div {
     padding: 10px;
 }

@@ -221,6 +221,11 @@ body {
     border-radius: 10px;
 }
 
+.cardSec-elem:hover{
+    box-shadow: 0 0 10px 10px rgb(97, 97, 97);
+    transition: 0.5s;
+}
+
 .categoryContainer h2{
     text-align: center;
     color: rgb(0, 0, 0);
@@ -255,4 +260,41 @@ body {
 
 .shopNowBtn:hover{
     background-color: rgb(82, 168, 235);
+}
+
+/* ---- Footer sec */
+
+.footerContainer {
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    padding: 10px 6px 10px;
+}
+
+.footerSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialSec,
+.companySec,
+.officeAddSec {
+    flex: 1;
+    padding: 6px;
+}
+
+.socialSec p,
+.companySec p,
+.officeAddSec p {
+    text-align: left;
+}
+
+.socialSec i {
+    padding: 0 5px;
+}
+
+.socialSec a,
+.companySec a {
+   text-decoration: none;
+    color: black;
+    padding: 0;
 }
