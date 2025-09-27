@@ -257,8 +257,9 @@ a {
 
 /* ---- body sec ------------------------------------------ */
 
+/* ---- SLider section----------------- */
 .sliderContainer{
-    padding: 0px 30px;
+    padding: 30px 30px;
 }
 
 .slider{
@@ -303,4 +304,37 @@ img.displaySlide{
 @keyframes fade{
     from {opacity: .5}
     to {opacity: 1}
+}
+
+/* ---- Grid section --------------------------- */
+
+.bannerGridContainer{
+    padding: 30px 30px;
+}
+
+.gridSec{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+
+#box1{
+    grid-row: 1/ span 2;
+}
+
+#box1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#box2 img{
+    height: 100%;
+    width: 510px;
+}
+
+#box3 img{
+    height: 100%;
+    width: 510px;
 }
