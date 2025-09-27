@@ -1,0 +1,82 @@
+// THIS IS Fashion-page.html's page Javscript file.
+
+// Hamburger Section ---------------------------------
+
+const sidebar_sec = document.getElementById('sidebar');
+const close_Sidebar_btn = document.getElementById('closeSideBar')
+
+function showSidebar() {
+    sidebar_sec.style.display = 'block';
+}
+
+function closeSideBar() {
+    sidebar_sec.style.display = 'none';
+}
+
+// All categories Section ---------------------------------------- 
+
+const categories_button = document.getElementById('categoryBtn');
+const categories_section = document.getElementById('CategoriesDD');
+const close_category = document.getElementById('closeCategory')
+function openCategory() {
+    categories_section.style.display = "block";
+}
+
+function closeCategory() {
+    categories_section.style.display = "none";
+}
+
+// User section -----------------------------------------------------------
+
+const user_image = document.getElementById('userImg');
+const user_section = document.getElementById('userDD');
+const close_userSection = document.getElementById('closeBtn')
+
+function openUserSec() {
+    user_section.style.display = 'block';
+}
+
+function closeUserSec() {
+    user_section.style.display = 'none';
+}
+
+// IMAGE SLIDER
+
+const slides = document.querySelectorAll(".Slides img");
+let slideIndex = 0;
+let intervalId = null;
+
+//initializeSlider();
+
+document.addEventListener("DOMContentLoaded", initializeSlider);
+
+function initializeSlider(){
+
+    if(slides.length > 0){
+        slides[slideIndex].classList.add("displaySlide");
+    }
+}
+
+function showSlide(index){
+    if(index >= slides.length){
+        slideIndex = 0;
+    }
+    else if(index < 0){
+        slideIndex = slides.length - 1;
+    }
+    slides.forEach(slide =>{
+        slide.classList.remove("displaySlide");
+    });
+    slides[slideIndex].classList.add("displaySlide");
+}
+
+function prevSlide(){
+    clearInterval(intervalId);
+    slideIndex--;
+    showSlide(slideIndex);
+}
+
+function nextSlide(){
+    slideIndex++;
+    showSlide(slideIndex);
+}
