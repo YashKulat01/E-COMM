@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Roboto;
     font-size: 15px;
-    background-color: rgb(115, 185, 238);
+    background-color: rgb(45,104,196);
 }
 
 .mainStruc {
@@ -305,7 +305,7 @@ a {
 }
 
 .cardSec-elem:hover{
-    box-shadow: 0 0 10px 10px rgb(97, 97, 97);
+    box-shadow: 0 0 10px 5px rgb(243, 243, 243);
     transition: 0.5s;
 }
 
