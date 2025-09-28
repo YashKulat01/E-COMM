@@ -49,7 +49,7 @@ body {
     right: 0;
     width: 280px;
     height: 100%;
-    background-color: #333;
+    background-color:#f1f1f1;
     z-index: 1;
     font-size: 15px;
     font-weight: lighter;
@@ -58,7 +58,7 @@ body {
 }
 
 .sidebarContHead {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 15px 15px 15px 8px;
     display: flex;
     gap: 5px;
@@ -71,7 +71,7 @@ body {
 }
 
 .sidebarCont h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 15px 15px 15px 8px;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .sidebarCont a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .logoSec a{
@@ -113,14 +113,14 @@ body {
 }
 
 .allCategoryBtn:hover {
-    background-color: rgb(224, 224, 224);
+    background-color:rgb(216, 216, 216);
 }
 
 .allCategorySecDropdown {
     margin-top: 10px;
     position: absolute;
     display: none;
-    background-color: #333;
+    background-color: #f1f1f1;
     padding: 15px;
     z-index: 1;
     border-radius: 6px;
@@ -132,13 +132,13 @@ body {
 .closeSec {
     position: absolute;
     top: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
     right: 20px;
     cursor: pointer;
 }
 
 .allCategorySecDropdown h3 {
-    color: white;
+    color: rgb(2, 2, 2);
 }
 
 .allCategorySecDropdown ul {
@@ -149,7 +149,7 @@ body {
 .allCategorySecDropdown li,
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 6px;
 }
 
@@ -194,7 +194,7 @@ a {
     right: 10px;
     top: 40px;
     display: none;
-    background-color: #333;
+    background-color: #f1f1f1;
     padding: 15px 25px;
     z-index: 1;
     border-radius: 6px;
@@ -204,7 +204,7 @@ a {
 }
 
 .closeBtnSec {
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
     top: 10px;
     right: 15px;
@@ -212,14 +212,14 @@ a {
 }
 
 .userSecDropDown h3 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .userSecDropDown ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .userSecDropDown li {
@@ -231,15 +231,16 @@ a {
 .myaBtn,
 .signOutBtn {
     height: 30px;
-    background-color: #333;
+    background-color: #ffffff;
     border: 1px solid white;
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
 .userSecDropDown a {
     padding: 0;
+    color: black;
 }
 
 .cartSec {
@@ -250,7 +251,7 @@ a {
 
 .bodyHr {
     height: 0.6px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin: 20px 0;
     border: none;
 }
@@ -261,6 +262,7 @@ a {
     text-align: center;
     width: auto;
     padding: 40px;
+    padding-top: 10px;
     color: white;
 }
 

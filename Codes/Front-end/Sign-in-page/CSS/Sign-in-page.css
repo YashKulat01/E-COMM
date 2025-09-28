@@ -63,13 +63,12 @@ body {
 .signInSec input {
     width: 100%;
     height: 30px;
-    border: 2px solid rgb(115, 185, 238);
+    border: 2px solid rgb(45,104,196);
     border-radius: 4px;
     margin: 10px 0px;
     outline: invert;
     font-size: inherit;
     transition: 150ms ease;
-
 }
 
 .signInSec input:hover{
@@ -82,7 +81,7 @@ body {
 }
 
 .signInSec input::placeholder{
-    color: rgb(115, 185, 238);
+    color: rgb(45,104,196);
     opacity: 1;
 }
 
