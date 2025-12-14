@@ -1,0 +1,49 @@
+/* ---- About sec -------------- */
+
+.aboutUsSec {
+    position: absolute;
+    z-index: 0;
+    width: auto;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    border-radius: 20px;
+    animation: move 1.5s;
+    background-color: #f1f1f1;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(400px);
+    }
+
+    100% {
+        transform: translateX();
+    }
+}
+
+/* ---- About sec>heading sec ---------*/
+
+.heading {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+/* ---- About sec>quotePara sec ------ */
+
+.quotePara {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.quotePara ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quotePara li {
+    padding-bottom: 10px;
+}
