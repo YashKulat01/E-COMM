@@ -1,6 +1,7 @@
 
 import './App.css'
-import Header from './Files/Header/Header'
+import Header from './Files/Header/Header.jsx'
+
 
 function App() {
 

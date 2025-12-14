@@ -1,36 +1,54 @@
 import React from 'react'
+import { useState } from "react";
+
 import '../Header/Header.css'
 
-import { showSidebar } from "./Header.js";
-
+import {
+  openSidebar, closeSidebar,
+  openCategory, closeCategory,
+  openUserSec, closeUserSec
+} from "./Header.js";
 
 import hamburgerLogo from './HeaderAssets/hamburger-icon.png'
 import webLogo from './HeaderAssets/E-comm_logo6.png'
 import userLogo from './HeaderAssets/user-logo1.png'
-import cartLogo from './HeaderAssets/Shopping-cart-2.png'    
+import cartLogo from './HeaderAssets/Shopping-cart-2.png'
+import userLogo1 from './HeaderAssets/user-logo.png'
 
 export default function Header() {
+
+  const [showSidebar, setShowSidebar] = useState(false);
+  const [showCategory, setCategory] = useState(false);
+  const [showUser, setUser] = useState(false);
+
   return (
-   <>
-     <div class="headerContainer">
+    <>
+      <div className="headerContainer">
         <header>
           {/* <!-- Header Container ---------------------------- --> */}
-          <div class="headerSec">
+          <div className="headerSec">
             {/* <!-- Header Container>left sec --------------------- --> */}
-            <div class="leftSec">
-              <div class="hamburgerSec">
-                <img src={hamburgerLogo} id="hamburgerIcon"
-                  alt="hamburger-icon" onClick={showSidebar} height="40px" title="Main menu" />
+            <div className="leftSec">
+              <div className="hamburgerSec">
+                <img src={hamburgerLogo}
+                  alt="hamburger-icon"
+                  onClick={() => openSidebar(setShowSidebar)}
+                  height="40"
+                  title="Main menu" />
               </div>
-              <div class="sidebarCont" id="sidebar">
+
+              <div className='sidebarCont'
+                style={{ display: showSidebar ? "block" : "none" }}>
                 <ul>
-                  <h3 class="sidebarContHead">
-                    Welcome <span id="username">USER</span> !!!
-                    <div id="closeSideBar" class="closebtn" onclick="closeSideBar()">
-                      X
+                  <h3 className="sidebarContHead">
+                    Welcome
+                    <span>USER</span> !!!
+                    <div className="closebtn"
+                      onClick={() => closeSidebar(setShowSidebar)}>
+                      ❌
                     </div>
                   </h3>
-                  <hr class="bodyHr" />
+                  <hr className="bodyHr" />
                   <h3>
                     Trending
                   </h3>
@@ -46,7 +64,7 @@ export default function Header() {
                   <li>
                     <a href="">Today's Deals</a>
                   </li>
-                  <hr class="bodyHr" />
+                  <hr className="bodyHr" />
                   <h3>
                     Shop by Category
                   </h3>
@@ -85,7 +103,7 @@ export default function Header() {
                   <li>
                     <a href="">Digital Services</a>
                   </li>
-                  <hr class="bodyHr" />
+                  <hr className="bodyHr" />
                   <h3>
                     Shop by Category
                   </h3>
@@ -102,23 +120,33 @@ export default function Header() {
                   </li>
                 </ul>
               </div>
-              <div class="logoSec">
+
+              <div className="logoSec">
                 <a href="/Codes/Front-end/Main-page/Main-page.html">
-                  <img class="webLogo" title="E-COMM" src={webLogo}
-                    alt="E-COMM logo" height="40px" width="110px" />
+                  <img className="webLogo"
+                    title="E-COMM"
+                    src={webLogo}
+                    alt="E-COMM logo"
+                    height="40px"
+                    width="110px" />
                 </a>
               </div>
-              <div class="allCategorySec">
-                <button id="categoryBtn" class="allCategoryBtn" title="All Category"
-                  onclick="openCategory()">
+
+              <div className="allCategorySec">
+                <button
+                  className="allCategoryBtn"
+                  title="All Category"
+                  onClick={() => openCategory(setCategory)}>
                   All Category
                 </button>
-                <div id="CategoriesDD" class="allCategorySecDropdown">
+                <div className="allCategorySecDropdown"
+                  style={{ display: showCategory ? "block" : "none" }}>
                   <h3>All Categories</h3>
-                  <div id="closeCategory" class="closeSec" onclick="closeCategory()">
+                  <div className="closeSec"
+                    onClick={() => closeCategory(setCategory)}>
                     X
                   </div>
-                  <hr class="bodyHr" />
+                  <hr className="bodyHr" />
                   <ul>
                     <li>
                       <a href="/Codes/Front-end/Main-page/Shop-now-page/Fashion-page/Fashion-page.html">
@@ -190,11 +218,12 @@ export default function Header() {
               </div>
 
             </div>
+
             {/* <!-- Header Container>right sec ----------------------- --> */}
-            <div class="rightSec">
+            <div className="rightSec">
               {/* <!-- Header Container>right sec>Links ------------------- --> */}
-              <nav class="links">
-                <div class="linkSec">
+              <nav className="links">
+                <div className="linkSec">
                   <a href="/Codes/Front-end/Main-page/Main-page.html" title="Home">
                     Home
                   </a>
@@ -210,27 +239,32 @@ export default function Header() {
                 </div>
               </nav>
               {/* <!-- Header Container>right sec>User sec ------------------- --> */}
-              <div class="UserSec">
-                <img id="userImg" src={userLogo} alt="" height="35px"
-                  title="Your Account" onclick="openUserSec()" />
+              <div className="UserSec">
+                <img src={userLogo}
+                  alt="UserLogo"
+                  height="35px"
+                  title="Your Account"
+                  onClick={() => openUserSec(setUser)} />
 
               </div>
-              <div id="userDD" class="userSecDropDown">
+              <div className="userSecDropDown"
+                style={{ display: showUser ? "block" : "none" }}>
                 <h3>
                   Your Account
                 </h3>
-                <div id="closeBtn" class="closeBtnSec" onclick="closeUserSec()">
-                  X
+                <div className="closeBtnSec"
+                  onClick={() => closeUserSec(setUser)}>
+                  ❌
                 </div>
                 <ul>
                   <li>
-                    <img src="/Codes/Front-end/assets/user-logo.png" alt="" height="64px" />
+                    <img src={userLogo1} alt="" height="64px" />
                   </li>
                   <li>
                     Hii <span>User !</span>
                   </li>
                   <li>
-                    <button class="myaBtn" title="Manage Your Account">
+                    <button className="myaBtn" title="Manage Your Account">
                       Manage Your Account
                     </button>
                   </li>
@@ -241,14 +275,14 @@ export default function Header() {
                     </a>
                   </li>
                   <li>
-                    <button class="signOutBtn" title="Sign out">
+                    <button className="signOutBtn" title="Sign out">
                       Sign out
                     </button>
                   </li>
                 </ul>
               </div>
               {/* <!-- Header Container>right sec>Cart sec ------------------- --> */}
-              <div class="cartSec">
+              <div className="cartSec">
                 <img src={cartLogo} alt="" onclick="" height="35px"
                   title="Cart" />
               </div>
@@ -256,6 +290,6 @@ export default function Header() {
           </div>
         </header>
       </div>
-   </>
+    </>
   )
 }
