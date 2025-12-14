@@ -1,0 +1,56 @@
+/* ---- Footer sec ---------------------------------------*/
+
+.footerContainer {
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    padding: 10px 6px 10px;
+}
+
+.footerSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialSec,
+.companySec,
+.officeAddSec {
+    flex: 1;
+    padding: 6px;
+}
+
+.socialSec p,
+.companySec p,
+.officeAddSec p {
+    text-align: left;
+}
+
+.socialSec i {
+    padding: 0 5px;
+}
+
+.socialSec a,
+.companySec a {
+    color: black;
+    padding: 0;
+}
+
+
+.sliderSec {
+    text-align: center;
+    width: auto;
+    padding: 40px;
+    padding-top: 10px;
+    color: white;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.slide img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
