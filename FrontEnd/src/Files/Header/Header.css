@@ -1,0 +1,236 @@
+.headerContainer {
+    height: 40px;
+    padding: 10px 6px 10px;
+}
+
+.headerSec {
+    display: flex;
+    height: 40px;
+}
+
+/* ---- Header sec>left sec --------------*/
+
+.leftSec {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.hamburgerSec {
+    cursor: pointer;
+}
+
+.sidebarCont {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background-color:#f1f1f1;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: scroll;
+    padding: 10px 20px 60px 20px;
+}
+
+.sidebarContHead {
+    color: rgb(0, 0, 0);
+    margin: 15px 15px 15px 8px;
+    display: flex;
+    gap: 5px;
+}
+
+.closebtn {
+    position: absolute;
+    left: 270px;
+    cursor: pointer;
+}
+
+.sidebarCont h3 {
+    color: rgb(0, 0, 0);
+    margin: 15px 15px 15px 8px;
+}
+
+.sidebarCont ul {
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sidebarCont li {
+    padding: 10px;
+}
+
+.sidebarCont li:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.sidebarCont a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.logoSec a{
+    padding: 0px;
+}
+
+.webLogo {
+    border-radius: 6px;
+}
+
+.allCategoryBtn {
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #eeeded;
+    cursor: pointer;
+}
+
+.allCategoryBtn:hover {
+    background-color:rgb(216, 216, 216);
+}
+
+.allCategorySecDropdown {
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+    background-color: #f1f1f1;
+    padding: 15px;
+    z-index: 1;
+    border-radius: 6px;
+    border: 2px solid white;
+    height: 300px;
+    overflow: scroll;
+}
+
+.closeSec {
+    position: absolute;
+    top: 35px;
+    color: rgb(0, 0, 0);
+    right: 20px;
+    cursor: pointer;
+}
+
+.allCategorySecDropdown h3 {
+    color: rgb(2, 2, 2);
+}
+
+.allCategorySecDropdown ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.allCategorySecDropdown li,
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+}
+
+.allCategorySecDropdown li:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+/* ---- Header sec>right sec --------------*/
+
+.rightSec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.linksSec {
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+}
+
+.links a {
+    padding: 0 7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 20ms ease;
+}
+
+.links a:hover {
+    color: rgb(226, 226, 226);
+}
+
+.UserSec {
+    cursor: pointer;
+}
+
+.userSecDropDown {
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    display: none;
+    background-color: #f1f1f1;
+    padding: 15px 25px;
+    z-index: 1;
+    border-radius: 6px;
+    border: 2px solid white;
+    height: auto;
+    text-align: center;
+}
+
+.closeBtnSec {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.userSecDropDown h3 {
+    color: rgb(0, 0, 0);
+}
+
+.userSecDropDown ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+
+.userSecDropDown li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9px;
+}
+
+.myaBtn,
+.signOutBtn {
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.userSecDropDown a {
+    padding: 0;
+    color: black;
+}
+
+.cartSec {
+    cursor: pointer;
+}
+
+/* ---- HR sec ---------------------------*/
+
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0;
+    border: none;
+}
