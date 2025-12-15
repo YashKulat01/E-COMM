@@ -1,0 +1,110 @@
+.bodyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    width: auto;
+    padding: 20px;
+    animation: move 2s;
+    background-color: rgb(45,104,196);
+    border: 2px solid white;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(400px);
+    }
+
+    100% {
+        transform: translateX();
+    }
+}
+
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    border: none;
+}
+
+.formIcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signInSec {
+    color: white;
+    font-size: 15px;
+}
+
+.signInSec h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.signInSec p{
+    font-weight: bold;
+}
+
+.signInSec label {
+    margin: 40px 0;
+}
+
+.signInSec input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(45,104,196);
+    border-radius: 4px;
+    margin: 10px 0px;
+    outline: invert;
+    font-size: inherit;
+    transition: 150ms ease;
+}
+
+.signInSec input:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.signInSec input:focus{
+    outline: none;
+    border-color: black;
+}
+
+.signInSec input::placeholder{
+    color: rgb(45,104,196);
+    opacity: 1;
+}
+
+.signInBtn{
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.signInBtn:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width :110px){
+    .mainStruc{
+        width:min(600px,100%);
+        border: none;
+    } 
+}
+
+form div.signInSec div.incorrect input{
+    border-color: #f06272;
+}
+
+.errorMsg{
+    color: #f06272;
+}

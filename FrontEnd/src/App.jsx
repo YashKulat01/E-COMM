@@ -7,19 +7,21 @@ import AboutPage from './Files/AboutPage/AboutPage.jsx'
 import ContactPage from './Files/Contact/ContactPage.jsx'
 import TermsConditions from './Files/Terms&Conditions/TermsConditions.jsx'
 import TermsPolicy from './Files/Terms&Policy/TermsPolicy.jsx'
+import SignIn from './Files/SignIn/SignIn.jsx'
 
 
 function App() {
 
   return (
     <>
-     {/* <Header/> */}
+      {/* <Header/> */}
      {/* <Outlet/> */}
     {/* <AboutPage/> */}
     {/* <ContactPage/> */}
     {/* <TermsConditions/> */}
      {/* <Footer/> */}
      {/* <TermsPolicy/> */}
+     {/* <SignIn/> */}
     </>
   )
 }
