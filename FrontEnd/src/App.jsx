@@ -4,6 +4,8 @@ import './App.css'
 import Footer from './Files/Footer/Footer.jsx'
 import Header from './Files/Header/Header.jsx'
 import AboutPage from './Files/AboutPage/AboutPage.jsx'
+import ContactPage from './Files/Contact/ContactPage.jsx'
+import TermsConditions from './Files/Terms&Conditions/TermsConditions.jsx'
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
     <>
      {/* <Header/> */}
      {/* <Outlet/> */}
-      <AboutPage/>
+    {/* <AboutPage/> */}
+    {/* <ContactPage/> */}
+    {/* <TermsConditions/> */}
      {/* <Footer/> */}
     </>
   )

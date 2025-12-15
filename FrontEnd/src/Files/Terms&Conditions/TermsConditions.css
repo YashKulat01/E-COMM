@@ -1,0 +1,21 @@
+/* ---- Body container  sec ---------------*/
+.bodyContainer{
+    padding: 40px;
+}
+.container{
+    border-radius: 20px;
+}
+.Tcsec {
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+}
+
+.Tcsec h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.Tcsec p {
+    font-size: 18px;
+    font-weight: normal;
+}
