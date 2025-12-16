@@ -1,0 +1,151 @@
+/* ImageSlider.css */
+
+
+.slider-container {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.prev {
+    left: 16px;
+}
+
+
+.next {
+    right: 16px;
+}
+
+
+.dots {
+    display: flex;
+    gap: 8px;
+}
+
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.dot.active {
+    background: #000;
+}
+
+/*---- Grid Section ------------------------------ */
+
+.gridSecContainer {
+    margin: 0 60px;
+}
+
+.gridSecContainer h1 {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ---- Grid Section> cardsec */
+.cardSecContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardSec-elem {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.cardSec-elem:hover {
+    box-shadow: 0 0 10px 5px rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
+.cardSecContainer div {
+    padding: 10px;
+}
+
+.cardSecContainer h4,
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+.T-shirtImg img {
+    width: 100%;
+}
+
+.addCartBtnSec {
+    display: flex;
+    justify-content: center;
+}
+
+.addCarBtn {
+    min-height: 35px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(115, 185, 238);
+}
+
+.addCarBtn:hover {
+    background-color: rgb(82, 168, 235);
+}
+
+/*---- Go-To-Top Section -------------------------------------------------------------- */
+
+.goToTopBtnSec {
+    display: flex;
+    justify-content: center;
+}
+
+.gotToTopBtn {
+    flex: 1;
+    width: 100%;
+}
