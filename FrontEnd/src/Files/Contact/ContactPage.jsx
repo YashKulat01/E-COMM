@@ -30,16 +30,20 @@ export default function ContactPage() {
                             {/* <!-- Header Container>right sec>Links ------------------- --> */}
                             <nav className="links">
                                 <div className="linkSec">
-                                    <a href="/Codes/Front-end/Main-page/Main-page.html" title="Home">
+                                    <a href="/Codes/Front-end/Main-page/Main-page.html"
+                                        title="Home">
                                         Home
                                     </a>
-                                    <a href="/Codes/Front-end/About-page/About-page.html" title="About Us">
+                                    <a href="/Codes/Front-end/About-page/About-page.html"
+                                        title="About Us">
                                         About Us
                                     </a>
-                                    <a href="/Codes/Front-end/Contact-page/Contact-page.html" title="Contact">
+                                    <a href="/Codes/Front-end/Contact-page/Contact-page.html"
+                                        title="Contact">
                                         Contact
                                     </a>
-                                    <a href="/Codes/Front-end/T&C-page/T&C-page.html" title="Terms & Conditions">
+                                    <a href="/Codes/Front-end/T&C-page/T&C-page.html"
+                                        title="Terms & Conditions">
                                         Terms & Conditions
                                     </a>
                                 </div>
@@ -118,9 +122,9 @@ export default function ContactPage() {
                 <div className="mapSec">
                     <iframe className="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7530.333360906203!2d11.578738609089884!3d48.14157729717254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f9a38c5fd9%3A0x10cb84a7db1987d!2sMunich%2C%20Germany!5e0!3m2!1sen!2sin!4v1756969409791!5m2!1sen!2sin"
-                        style={{ border: 0 }} 
-                        allowFullScreen 
-                        loading="lazy" 
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>

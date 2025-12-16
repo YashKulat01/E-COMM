@@ -33,7 +33,9 @@ export default function SignIn() {
                                         Email:
                                     </b>
                                 </label><br />
-                                <input type="email" id="emailField" placeholder="Enter email" name="email" /><br />
+                                <input type="email"
+                                    placeholder="Enter email"
+                                    name="email" /><br />
                             </div>
 
                             <div>
@@ -43,7 +45,9 @@ export default function SignIn() {
                                     </b>
                                 </label><br />
 
-                                <input type="password" id="passField" placeholder="Enter password" name="password" />
+                                <input type="password"
+                                    placeholder="Enter password"
+                                    name="password" />
                             </div>
                             <p>
                                 New Here ?
@@ -52,7 +56,8 @@ export default function SignIn() {
                                 </a>.
                             </p>
                             <div className="signBtnSec">
-                                <button className="signInBtn" onclick="mainPgTravel()" title="Sign In">
+                                <button className="signInBtn"
+                                    title="Sign In">
                                     Sign In
                                 </button>
                             </div>

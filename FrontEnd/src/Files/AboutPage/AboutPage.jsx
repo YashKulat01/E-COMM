@@ -30,16 +30,20 @@ export default function AboutPage() {
                             {/* <!-- Header Container>right sec>Links ------------------- --> */}
                             <nav className="links">
                                 <div className="linkSec">
-                                    <a href="/Codes/Front-end/Main-page/Main-page.html" title="Home">
+                                    <a href="/Codes/Front-end/Main-page/Main-page.html"
+                                        title="Home">
                                         Home
                                     </a>
-                                    <a href="/Codes/Front-end/About-page/About-page.html" title="About Us">
+                                    <a href="/Codes/Front-end/About-page/About-page.html"
+                                        title="About Us">
                                         About Us
                                     </a>
-                                    <a href="/Codes/Front-end/Contact-page/Contact-page.html" title="Contact">
+                                    <a href="/Codes/Front-end/Contact-page/Contact-page.html"
+                                        title="Contact">
                                         Contact
                                     </a>
-                                    <a href="/Codes/Front-end/T&C-page/T&C-page.html" title="Terms & Conditions">
+                                    <a href="/Codes/Front-end/T&C-page/T&C-page.html"
+                                        title="Terms & Conditions">
                                         Terms & Conditions
                                     </a>
                                 </div>
@@ -48,7 +52,7 @@ export default function AboutPage() {
                     </div>
                 </header>
             </div>
-            
+
             {/* <!-- Body Container --------------------------------------- --> */}
             <div className="bodyContainer">
                 {/* <!-- AboutUsSec ---------------------------------------- --> */}

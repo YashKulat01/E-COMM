@@ -34,7 +34,9 @@ export default function Footer() {
                             </p>
                         </div>
                         <div className="companySec">
-                            <h1>Company</h1>
+                            <h1>
+                                Company
+                            </h1>
                             <p>
                                 <a href="/Codes/Front-end/About-page/About-page.html">
                                     About us

@@ -224,16 +224,20 @@ export default function Header() {
               {/* <!-- Header Container>right sec>Links ------------------- --> */}
               <nav className="links">
                 <div className="linkSec">
-                  <a href="/Codes/Front-end/Main-page/Main-page.html" title="Home">
+                  <a href="/Codes/Front-end/Main-page/Main-page.html"
+                    title="Home">
                     Home
                   </a>
-                  <a href="/Codes/Front-end/About-page/About-page.html" title="About Us">
+                  <a href="/Codes/Front-end/About-page/About-page.html"
+                    title="About Us">
                     About Us
                   </a>
-                  <a href="/Codes/Front-end/Contact-page/Contact-page.html" title="Contact">
+                  <a href="/Codes/Front-end/Contact-page/Contact-page.html"
+                    title="Contact">
                     Contact
                   </a>
-                  <a href="/Codes/Front-end/T&C-page/T&C-page.html" title="Terms & Conditions">
+                  <a href="/Codes/Front-end/T&C-page/T&C-page.html"
+                    title="Terms & Conditions">
                     Terms & Conditions
                   </a>
                 </div>
@@ -258,13 +262,16 @@ export default function Header() {
                 </div>
                 <ul>
                   <li>
-                    <img src={userLogo1} alt="" height="64px" />
+                    <img src={userLogo1}
+                      alt=""
+                      height="64px" />
                   </li>
                   <li>
                     Hii <span>User !</span>
                   </li>
                   <li>
-                    <button className="myaBtn" title="Manage Your Account">
+                    <button className="myaBtn"
+                      title="Manage Your Account">
                       Manage Your Account
                     </button>
                   </li>
@@ -275,7 +282,8 @@ export default function Header() {
                     </a>
                   </li>
                   <li>
-                    <button className="signOutBtn" title="Sign out">
+                    <button className="signOutBtn"
+                      title="Sign out">
                       Sign out
                     </button>
                   </li>
@@ -283,7 +291,10 @@ export default function Header() {
               </div>
               {/* <!-- Header Container>right sec>Cart sec ------------------- --> */}
               <div className="cartSec">
-                <img src={cartLogo} alt="" onclick="" height="35px"
+                <img src={cartLogo}
+                  alt=""
+                  onclick=""
+                  height="35px"
                   title="Cart" />
               </div>
             </div>
