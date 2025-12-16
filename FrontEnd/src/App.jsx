@@ -9,7 +9,8 @@ import TermsConditions from './Files/Terms&Conditions/TermsConditions.jsx'
 import TermsPolicy from './Files/Terms&Policy/TermsPolicy.jsx'
 import SignIn from './Files/SignIn/SignIn.jsx'
 import SignUp from './Files/SignUp/SignUp.jsx'
-import Home from './Files/Home/Home.jsx'
+import Home from './Files/MainPage/Home/Home.jsx'
+import ShopNow from './Files/MainPage/ShopNow/ShopNow.jsx'
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <TermsPolicy/> */}
       {/* <SignIn/> */}
       {/* <SignUp /> */}
-      <Home/>
+      {/* <Home/> */}
+      <ShopNow/>
     </>
   )
 }

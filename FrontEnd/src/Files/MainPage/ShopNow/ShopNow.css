@@ -1,0 +1,70 @@
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0;
+    border: none;
+}
+
+.gridSec {
+    margin: 10px 30px;
+}
+
+.gridSec h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.categoryContainer div {
+    padding: 10px;
+}
+
+.cardSec-elem {
+    width: auto;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.cardSec-elem:hover {
+    box-shadow: 0 0 10px 5px rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
+.categoryContainer h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.categoryContainerRow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.imgSec img {
+    width: 100%;
+}
+
+.shopNowBtnSec {
+    display: flex;
+    justify-content: center;
+}
+
+.shopNowBtn {
+    min-height: 35px;
+    border: none;
+    border-radius: 6px;
+    font-weight: lighter;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(45, 104, 196);
+}
+
+.shopNowBtn:hover {
+    background-color: rgb(80, 127, 223);
+}
