@@ -8,6 +8,7 @@ import ContactPage from './Files/Contact/ContactPage.jsx'
 import TermsConditions from './Files/Terms&Conditions/TermsConditions.jsx'
 import TermsPolicy from './Files/Terms&Policy/TermsPolicy.jsx'
 import SignIn from './Files/SignIn/SignIn.jsx'
+import SignUp from './Files/SignUp/SignUp.jsx'
 
 
 function App() {
@@ -15,13 +16,14 @@ function App() {
   return (
     <>
       {/* <Header/> */}
-     {/* <Outlet/> */}
-    {/* <AboutPage/> */}
-    {/* <ContactPage/> */}
-    {/* <TermsConditions/> */}
-     {/* <Footer/> */}
-     {/* <TermsPolicy/> */}
-     {/* <SignIn/> */}
+      {/* <Outlet/> */}
+      {/* <AboutPage/> */}
+      {/* <ContactPage/> */}
+      {/* <TermsConditions/> */}
+      {/* <Footer/> */}
+      {/* <TermsPolicy/> */}
+      {/* <SignIn/> */}
+      <SignUp />
     </>
   )
 }
