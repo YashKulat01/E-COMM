@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react'
 
-import './Fashion.css'
+import './Electronics.css'
 
-import slide1 from './assets/banner1.png'
+import slide1 from './assets/banner1.jpeg'
 import slide2 from './assets/banner2.jpeg'
-import slide3 from './assets/banner3.jpg'
 
-import gridImg1 from './assets/men-fashion.jpeg'
-import gridImg2 from './assets/new-collection.jpeg'
-import gridImg3 from './assets/woman-fashion.jpeg'
+import gridImg1 from './assets/'
+import gridImg2 from './assets/'
+import gridImg3 from './assets/'
 
 import Tshirt1 from './assets/T-shirt1.png'
 import Tshirt2 from './assets/T-shirt2.png'
 import Dress from './assets/Dress.png'
 
-const banners = [slide1, slide2, slide3];
+const banners = [slide1, slide2];
 
-export default function Fashion() {
+export default function Electronics() {
 
     const [current, setCurrent] = useState(0);
 
@@ -47,61 +46,29 @@ export default function Fashion() {
                         className="slider-image" />
 
                     {/* <button 
-                    className="nav prev" 
-                    onClick={prevSlide}>
-                        ❮
-                    </button>
-                    <button 
-                    className="nav next" 
-                    onClick={nextSlide}>
-                        ❯
-                    </button> */}
+                           className="nav prev" 
+                           onClick={prevSlide}>
+                               ❮
+                           </button>
+                           <button 
+                           className="nav next" 
+                           onClick={nextSlide}>
+                               ❯
+                           </button> */}
                 </div>
 
 
                 {/* <div className="dots">
-                    {banners.map((_, index) => (
-                        <span
-                            key={index}
-                            className={`dot ${index === current ? "active" : ""}`}
-                            onClick={() => setCurrent(index)}
-                        />
-                    ))}
-                </div> */}
+                           {banners.map((_, index) => (
+                               <span
+                                   key={index}
+                                   className={`dot ${index === current ? "active" : ""}`}
+                                   onClick={() => setCurrent(index)}
+                               />
+                           ))}
+                       </div> */}
             </div>
 
-            {/* banner Container ----------------------------------- */}
-            <div className="gridContainer">
-                <div class="parent">
-                    <div className="box1">
-                        <a href="">
-                            <img
-                                // new collection
-                                src={gridImg2}
-                                alt=""
-                            />
-                        </a>
-                    </div>
-                    <div className="box2">
-                        <a href="">
-                            <img
-                                // men fashion img
-                                src={gridImg1}
-                                alt=""
-                            />
-                        </a>
-                    </div>
-                    <div className="box3">
-                        <a href="">
-                            <img
-                                //female Fashion
-                                src={gridImg3}
-                                alt=""
-                            />
-                        </a>
-                    </div>
-                </div>
-            </div>
             {/* This week collection Container ----------------------------------- */}
             <div className="thisWeekCollSection">
                 <div className="collectionContainer">
@@ -163,6 +130,7 @@ export default function Fashion() {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
