@@ -14,6 +14,7 @@ import ShopNow from './Files/MainPage/ShopNow/ShopNow.jsx'
 import Fashion from './Files/MainPage/ShopNow/FashionApparal/Fashion.jsx'
 import Electronics from './Files/MainPage/ShopNow/ElectronicsGadgets/Electronics.jsx'
 import HomeLiving from './Files/MainPage/ShopNow/HomeLiving/HomeLiving.jsx'
+import Grocery from './Files/MainPage/ShopNow/GroceryEssentials/Grocery.jsx'
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <ShopNow/> */}
       {/* <Fashion/> */}
       {/* <Electronics /> */}
-      <HomeLiving/>
+      {/* <HomeLiving/> */}
+      <Grocery/>
     </>
   )
 }
