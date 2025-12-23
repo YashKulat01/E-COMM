@@ -30,8 +30,8 @@ function App() {
       {/* <SignUp /> */}
       {/* <Home/> */}
       {/* <ShopNow/> */}
-      <Fashion/>
-      
+      {/* <Fashion/> */}
+      <Electronics />
     </>
   )
 }

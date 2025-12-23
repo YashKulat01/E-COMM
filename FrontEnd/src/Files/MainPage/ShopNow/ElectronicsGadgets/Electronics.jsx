@@ -4,16 +4,13 @@ import './Electronics.css'
 
 import slide1 from './assets/banner1.jpeg'
 import slide2 from './assets/banner2.jpeg'
+import slide3 from './assets/banner3.jpeg'
 
-import gridImg1 from './assets/'
-import gridImg2 from './assets/'
-import gridImg3 from './assets/'
+import Phone from './assets/phone.png'
+import Laptops from './assets/Laptop.png'
+import Computers from './assets/computer.png'
 
-import Tshirt1 from './assets/T-shirt1.png'
-import Tshirt2 from './assets/T-shirt2.png'
-import Dress from './assets/Dress.png'
-
-const banners = [slide1, slide2];
+const banners = [slide1, slide2, slide3];
 
 export default function Electronics() {
 
@@ -76,11 +73,11 @@ export default function Electronics() {
                     <div className="cardSec">
                         <div className="cardSecContainer">
                             <div className="cardSec-elem">
-                                <h4>Men T-shirt</h4>
+                                <h4>Phones</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
                                         <img
-                                            src={Tshirt1}
+                                            src={Phone}
                                             alt="productImg"
                                         />
                                     </a>
@@ -93,11 +90,11 @@ export default function Electronics() {
                                 </div>
                             </div>
                             <div className="cardSec-elem">
-                                <h4>Women Dress</h4>
+                                <h4>Laptops</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
                                         <img
-                                            src={Dress}
+                                            src={Laptops}
                                             alt="productImg"
                                         />
                                     </a>
@@ -110,11 +107,11 @@ export default function Electronics() {
                                 </div>
                             </div>
                             <div className="cardSec-elem">
-                                <h4>Men T-shirt</h4>
+                                <h4>Computers</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
                                         <img
-                                            src={Tshirt2}
+                                            src={Computers}
                                             alt="productImg"
                                         />
                                     </a>
@@ -129,8 +126,69 @@ export default function Electronics() {
                         </div>
                     </div>
                 </div>
+                
             </div>
 
+            <div className="thisWeekCollSection1">
+                <div className="collectionContainer">
+                    <div className="cardSec">
+                        <div className="cardSecContainer">
+                            <div className="cardSec-elem">
+                                <h4>Phones</h4>
+                                <div className="T-shirtImg">
+                                    <a href="">
+                                        <img
+                                            src={Phone}
+                                            alt="productImg"
+                                        />
+                                    </a>
+                                </div>
+                                <p>Price $35 </p>
+                                <div className="addCartBtnSec">
+                                    <button className="addCarBtn" title="Add to cart" onclick="">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="cardSec-elem">
+                                <h4>Laptops</h4>
+                                <div className="T-shirtImg">
+                                    <a href="">
+                                        <img
+                                            src={Laptops}
+                                            alt="productImg"
+                                        />
+                                    </a>
+                                </div>
+                                <p>Price $60 </p>
+                                <div className="addCartBtnSec">
+                                    <button className="addCarBtn" title="Add to cart" onclick="">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="cardSec-elem">
+                                <h4>Computers</h4>
+                                <div className="T-shirtImg">
+                                    <a href="">
+                                        <img
+                                            src={Computers}
+                                            alt="productImg"
+                                        />
+                                    </a>
+                                </div>
+                                <p>Price $40 </p>
+                                <div className="addCartBtnSec">
+                                    <button className="addCarBtn" title="Add to cart" onclick="">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </>
     )
 }
