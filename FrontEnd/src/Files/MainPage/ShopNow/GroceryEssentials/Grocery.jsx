@@ -7,11 +7,11 @@ import slide2 from './assets/banner2.jpeg'
 import slide3 from './assets/banner3.jpeg'
 
 import Staple from './assets/poster4.jpeg'
-import Spices from './assets/poster3.jpeg'
+import Spices from './assets/poster3.PNG'
 import Breakfast from './assets/poster2.jpeg'
 import Beverages from './assets/poster5.jpeg'
 import HouseholdCleaning from './assets/poster6.jpeg'
-import Fruits from './assets/poster1.jpeg'
+import Fruits from './assets/poster1.PNG'
 
 const banners = [slide1, slide2, slide3];
 
@@ -69,6 +69,69 @@ export default function Grocery() {
                           </div> */}
             </div>
 
+            <div className="gridContainer">
+                <h1>Top Categories</h1>
+                <div class="parent">
+                    <div>
+                        <a href="">
+                            <img
+                                src={Spices}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Spices</h1>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <img
+                                src={Fruits}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Fruits</h1>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <img
+                                src={Beverages}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Beverages</h1>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <img
+                                src={Breakfast}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Breakfast</h1>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <img
+                                src={Staple}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Staples</h1>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img
+                                src={HouseholdCleaning}
+                                alt=""
+                            />
+                        </a>
+                        <h1>Household & Cleaning</h1>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

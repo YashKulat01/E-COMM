@@ -25,6 +25,7 @@
     height: 100%;
     transition: opacity 0.6s ease-in-out;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 
@@ -41,22 +42,18 @@
     border-radius: 50%;
 }
 
-
 .prev {
     left: 16px;
 }
-
 
 .next {
     right: 16px;
 }
 
-
 .dots {
     display: flex;
     gap: 8px;
 }
-
 
 .dot {
     width: 12px;
@@ -66,8 +63,35 @@
     cursor: pointer;
 }
 
-
 .dot.active {
     background: #000;
 }
-           
+
+/* --------------- Grid container-------------------------- */
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.gridContainer{
+    margin: 60px;
+}
+
+.parent {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px; 
+    width: auto;
+    padding: 0;
+}
+
+.parent img{
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
