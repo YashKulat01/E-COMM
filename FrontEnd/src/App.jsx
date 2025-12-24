@@ -15,6 +15,7 @@ import Fashion from './Files/MainPage/ShopNow/FashionApparal/Fashion.jsx'
 import Electronics from './Files/MainPage/ShopNow/ElectronicsGadgets/Electronics.jsx'
 import HomeLiving from './Files/MainPage/ShopNow/HomeLiving/HomeLiving.jsx'
 import Grocery from './Files/MainPage/ShopNow/GroceryEssentials/Grocery.jsx'
+import Beauty from './Files/MainPage/ShopNow/BeautyCare/Beauty.jsx'
 
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
       {/* <Fashion/> */}
       {/* <Electronics /> */}
       {/* <HomeLiving/> */}
-      <Grocery/>
+      {/* <Grocery/> */}
+      <Beauty/>
     </>
   )
 }
