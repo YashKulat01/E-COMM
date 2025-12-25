@@ -16,6 +16,7 @@ import Electronics from './Files/MainPage/ShopNow/ElectronicsGadgets/Electronics
 import HomeLiving from './Files/MainPage/ShopNow/HomeLiving/HomeLiving.jsx'
 import Grocery from './Files/MainPage/ShopNow/GroceryEssentials/Grocery.jsx'
 import Beauty from './Files/MainPage/ShopNow/BeautyCare/Beauty.jsx'
+import Health from './Files/MainPage/ShopNow/HealthWellness/Health.jsx'
 
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <Electronics /> */}
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
-      <Beauty/>
+      {/* <Beauty/> */}
+      <Health/>   
     </>
   )
 }
