@@ -18,6 +18,7 @@ import Grocery from './Files/MainPage/ShopNow/GroceryEssentials/Grocery.jsx'
 import Beauty from './Files/MainPage/ShopNow/BeautyCare/Beauty.jsx'
 import Health from './Files/MainPage/ShopNow/HealthWellness/Health.jsx'
 import Sport from './Files/MainPage/ShopNow/SportOutdoor/Sport.jsx'
+import Baby from './Files/MainPage/ShopNow/BabyKids/Baby.jsx'
 
 
 function App() {
@@ -41,7 +42,8 @@ function App() {
       {/* <Grocery/> */}
       {/* <Beauty/> */}
       {/* <Health/>    */}
-      <Sport/>
+      {/* <Sport/> */}
+      <Baby/>
     </>
   )
 }
