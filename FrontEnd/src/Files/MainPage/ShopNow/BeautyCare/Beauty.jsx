@@ -59,7 +59,7 @@ export default function Beauty() {
                                   />
                               ))}
                           </div> */}
-            </div>
+            </div> 
 
             <div className="gridContainer">
                 <h1>Top Categories</h1>
