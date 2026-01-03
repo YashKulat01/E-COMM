@@ -20,6 +20,7 @@ import Health from './Files/MainPage/ShopNow/HealthWellness/Health.jsx'
 import Sport from './Files/MainPage/ShopNow/SportOutdoor/Sport.jsx'
 import Baby from './Files/MainPage/ShopNow/BabyKids/Baby.jsx'
 import Stationery from './Files/MainPage/ShopNow/OfficeStationary/Stationery.jsx'
+import Cart from './Files/CartPage/Cart.jsx'
 
 
 function App() {
@@ -46,8 +47,8 @@ function App() {
       {/* <Sport/> */}
       {/* <Baby/> */}
       {/* <Stationery/> */}
+      <Cart/>
 
-      
     </>
   )
 }
