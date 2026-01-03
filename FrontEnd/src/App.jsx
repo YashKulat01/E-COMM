@@ -19,6 +19,7 @@ import Beauty from './Files/MainPage/ShopNow/BeautyCare/Beauty.jsx'
 import Health from './Files/MainPage/ShopNow/HealthWellness/Health.jsx'
 import Sport from './Files/MainPage/ShopNow/SportOutdoor/Sport.jsx'
 import Baby from './Files/MainPage/ShopNow/BabyKids/Baby.jsx'
+import Stationery from './Files/MainPage/ShopNow/OfficeStationary/Stationery.jsx'
 
 
 function App() {
@@ -41,9 +42,12 @@ function App() {
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
       {/* <Beauty/> */}
-      {/* <Health/>    */}
+      {/* <Health/> */}
       {/* <Sport/> */}
-      <Baby/>
+      {/* <Baby/> */}
+      {/* <Stationery/> */}
+
+      
     </>
   )
 }
