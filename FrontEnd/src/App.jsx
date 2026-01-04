@@ -30,20 +30,26 @@ import Layout from './Files/Layout/Layout.jsx'
 
 function App() {
 
-  const routes = createBrowserRouter([{
-    path:"/",
-    element: <Layout/>,
-    children: [
-      {
-        index:true,
-        element: <Home />
-      },
-      {
-        path:"/shopNow",
-        element: <ShopNow />
-      },
-    ]
-  }])
+  const routes = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          index: true,
+          element: <Home />
+        },
+        {
+          path: "/shopNow",
+          element: <ShopNow />
+        },
+      ]
+    },
+    {
+      path:"/about",
+      element:<AboutPage/>
+    }
+  ])
 
   return (
     <>
