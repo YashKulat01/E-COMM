@@ -1,9 +1,12 @@
 .bodyContainer {
     padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
     background-color: #f1f1f1;
+    background: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
 }
@@ -29,6 +32,7 @@
 .infoSec {
     display: flex;
     padding-bottom: 20px;
+    background-color: #fff;
 }
 
 /* ---- Body Sec> contact heading sec> Info Sec > store add sec*/
