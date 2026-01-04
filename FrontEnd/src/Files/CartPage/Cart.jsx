@@ -56,8 +56,7 @@ export default function Cart() {
     return (
         <>
             <div className="cart-container">
-
-
+                
                 <div className="left">
 
                     <h1>Shopping Cart</h1>
@@ -149,14 +148,36 @@ export default function Cart() {
                 </div>
                 <div className="right">
                     <div className="right-top">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti explicabo sequi iure repudiandae maxime officiis saepe minima omnis vitae, itaque velit perferendis exercitationem amet voluptates fuga molestiae ducimus repellendus? Excepturi!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum exercitationem aperiam, veritatis quod dicta voluptate! Doloremque excepturi voluptatem saepe esse nemo nam eos ullam impedit culpa, et eligendi animi? Alias!
+                        <h2>Payment Section</h2>
+                        <hr />
+                        <h3>Subtotal 5 items</h3>
+                        <button className='chekoutBtn'>Proceed to checkout</button>
                     </div>
                     <div className="right-bottom">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur modi autem eum, optio in eligendi dolore distinctio beatae esse aliquid sapiente accusamus, culpa, perferendis alias. Possimus nemo suscipit qui recusandae?
+                        <h2>Related Products</h2>
+                        <hr />
+                        <div className="infoSection">
+                            <div className="productImg">
+                                <img src={products.product4}
+                                    alt="productImg" />
+                            </div>
+                            <div className="productInfo">
+                                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                                <h3>Price</h3>
+                            </div>
+                        </div>
+                        <div className="infoSection">
+                            <div className="productImg">
+                                <img src={products.product4}
+                                    alt="productImg" />
+                            </div>
+                            <div className="productInfo">
+                                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                                <h3>Price</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </>
     )

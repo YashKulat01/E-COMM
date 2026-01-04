@@ -30,6 +30,24 @@ hr {
     background: #000;
 }
 
+.infoSection {
+    display: flex;
+}
+
+.productInfo h5 {
+    color: rgb(3, 161, 3);
+    margin: 0;
+}
+
+.productImg {
+    margin: 10px 15px;
+}
+
+.productImg img {
+    width: 130px;
+    height: 150px;
+    cursor: pointer;
+}
 
 .right {
     float: right;
@@ -43,19 +61,24 @@ hr {
     margin-bottom: 20px;
 }
 
-.infoSection {
-    display: flex;
+.right h2,
+h3 {
+    font-weight: lighter;
 }
 
-.productInfo h5{
-    color: rgb(3, 161, 3);
-    margin: 0;
-}
-.productImg {
-    margin: 10px 15px;
+.chekoutBtn {
+    width: 80%;
+    height: 25px;
+    margin: 0% 10%;
+    border-radius: 12.5px;
+    border: none;
+    background-color: #2f67c7;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-.productImg img {
-    width: 130px;
-    height: 150px;
+.chekoutBtn:hover {
+    background-color: #387aec;
 }
