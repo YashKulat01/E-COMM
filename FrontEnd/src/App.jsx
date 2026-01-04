@@ -1,5 +1,8 @@
 
 import { Outlet } from 'react-router-dom'
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import './App.css'
 import Footer from './Files/Footer/Footer.jsx'
 import Header from './Files/Header/Header.jsx'
@@ -21,9 +24,26 @@ import Sport from './Files/MainPage/ShopNow/SportOutdoor/Sport.jsx'
 import Baby from './Files/MainPage/ShopNow/BabyKids/Baby.jsx'
 import Stationery from './Files/MainPage/ShopNow/OfficeStationary/Stationery.jsx'
 import Cart from './Files/CartPage/Cart.jsx'
+import Layout from './Files/Layout/Layout.jsx'
+
 
 
 function App() {
+
+  const routes = createBrowserRouter([{
+    path:"/",
+    element: <Layout/>,
+    children: [
+      {
+        index:true,
+        element: <Home />
+      },
+      {
+        path:"/shopNow",
+        element: <ShopNow />
+      },
+    ]
+  }])
 
   return (
     <>
@@ -47,7 +67,9 @@ function App() {
       {/* <Sport/> */}
       {/* <Baby/> */}
       {/* <Stationery/> */}
-      <Cart/>
+      {/* <Cart/> */}
+
+      <RouterProvider router={routes} />
 
     </>
   )

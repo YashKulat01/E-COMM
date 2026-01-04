@@ -9,6 +9,12 @@
 .footerSec {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.footerSec h1{
+    text-align: left;
+    color: black;
 }
 
 .socialSec,
