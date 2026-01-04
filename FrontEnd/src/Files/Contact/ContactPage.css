@@ -6,7 +6,6 @@
 
 .container{
     background-color: #f1f1f1;
-    background: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
 }
@@ -88,7 +87,7 @@
 }
 
 .map {
-    width: 100%;
+    width: 1000px;
     height: 550px;
     border-radius: 24px;
 }
