@@ -1,10 +1,67 @@
-.bodyContainer {
-    padding: 60px 60px;
-    display: flex;
-    flex-direction: column;
+/* ---- Header Sec-------------------------- */
+
+.headerContainer {
+    height: 40px;
+    padding: 6px 10px;
 }
 
-.container{
+.headerSec {
+    display: flex;
+    height: 40px;
+}
+
+/* ---- Header sec>left sec --------------*/
+
+.leftSec {
+    flex: 1;
+}
+
+.webLogo {
+    border-radius: 6px;
+}
+
+/* ---- Header sec>right sec --------------*/
+
+.rightSec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.linksSec {
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+}
+
+.links a {
+    padding: 0 7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.links a:hover {
+    color: rgb(235, 235, 235);
+}
+
+/* ---- HR sec ---------------------------*/
+
+.bodyHr {
+    height: 0.6px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2px;
+    border: none;
+}
+
+/* ---- Body Sec ------------------------------- */
+
+.bodyContainer {
+    padding: 60px 60px;
+}
+
+.container {
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
@@ -13,15 +70,18 @@
 /* ---- Body Sec> contact heading sec */
 .contactHeading {
     color: rgb(0, 0, 0);
-    font-size: 30px;
+
 }
 
 .contactHeading p {
     margin: 0;
+    text-align: left;
+    font-size: 30px;
 }
 
-.contactText {
+.contactText p {
     color: rgb(0, 0, 0);
+    text-align: left;
     font-size: 19px;
     font-weight: lighter;
 }
@@ -31,7 +91,6 @@
 .infoSec {
     display: flex;
     padding-bottom: 20px;
-    background-color: #fff;
 }
 
 /* ---- Body Sec> contact heading sec> Info Sec > store add sec*/
@@ -47,6 +106,7 @@
 
 .storeAddSec p {
     font-size: 17px;
+    text-align: left;
     margin: 6px;
 }
 
@@ -87,7 +147,7 @@
 }
 
 .map {
-    width: 1000px;
+    width: 100%;
     height: 550px;
     border-radius: 24px;
 }
