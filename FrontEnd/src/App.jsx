@@ -37,9 +37,9 @@ function App() {
       {/* <SignIn/> */}
       {/* <SignUp/> */}
 
-      <Home/>
+      {/* <Home/> */}
       {/* <ShopNow/> */}
-      {/* <Fashion/> */}
+      <Fashion/>
       {/* <Electronics /> */}
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}

@@ -27,7 +27,7 @@ export default function ShopNow() {
             <div className="categoryContainerRow">
               {/* body>grid sec >category sec> Fashion and Apperal sec--------------------------------- */}
               <div
-                className="cardSec-elem"
+                className="cardSec-elem-home"
                 onClick="window.location.href = '/Codes/Front-end/Main-page/Shop-now-page/Fashion-page/Fashion-page.html';"
               >
                 <h2>Fashion &amp; Apparel</h2>
@@ -46,7 +46,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Electronics & Gadgets sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Electronics &amp; Gadgets</h2>
                 <div className="imgSec">
                   <a href="">
@@ -63,7 +63,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Home & Living sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Home &amp; Living</h2>
                 <div className="imgSec">
                   <a href="">
@@ -82,7 +82,7 @@ export default function ShopNow() {
             </div>
             <div className="categoryContainerRow">
               {/* body>grid sec >category sec> Grocery & Essentials sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Grocery &amp; Essentials</h2>
                 <div className="imgSec">
                   <a href="">
@@ -99,7 +99,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Beauty & Personal Care sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Beauty &amp; Personal Care</h2>
                 <div className="imgSec">
                   <a href="">
@@ -116,7 +116,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Health & Wellness sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Health &amp; Wellness</h2>
                 <div className="imgSec">
                   <a href="">
@@ -135,7 +135,7 @@ export default function ShopNow() {
             </div>
             <div className="categoryContainerRow">
               {/* body>grid sec >category sec> Sports & Outdoor sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Sports &amp; Outdoor</h2>
                 <div className="imgSec">
                   <a href="">
@@ -152,8 +152,8 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Entertainment & Hobbies sec--------------------------------- */}
-              <div className="cardSec-elem">
-                <h2>Entertainment/Hobbies</h2>
+              <div className="cardSec-elem-home">
+                <h2>Entertainment &amp; Hobbies</h2>
                 <div className="imgSec">
                   <a href="">
                     <img
@@ -169,7 +169,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Baby & Kids sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Baby &amp; Kids</h2>
                 <div className="imgSec">
                   <a href="">
@@ -188,7 +188,7 @@ export default function ShopNow() {
             </div>
             <div className="categoryContainerRow">
               {/* body>grid sec >category sec> Automotive sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Automotive</h2>
                 <div className="imgSec">
                   <a href="">
@@ -205,7 +205,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Office & Stationery sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Office &amp; Stationery</h2>
                 <div className="imgSec">
                   <a href="">
@@ -222,7 +222,7 @@ export default function ShopNow() {
                 </div>
               </div>
               {/* body>grid sec >category sec> Pet Supplies sec--------------------------------- */}
-              <div className="cardSec-elem">
+              <div className="cardSec-elem-home">
                 <h2>Pet Supplies</h2>
                 <div className="imgSec">
                   <a href="">

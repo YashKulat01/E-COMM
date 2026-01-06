@@ -44,7 +44,7 @@ export default function Fashion() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-fashion" />
 
                     {/* <button 
                     className="nav prev" 
@@ -71,8 +71,8 @@ export default function Fashion() {
             </div>
 
             {/* banner Container ----------------------------------- */}
-            <div className="gridContainer">
-                <div class="parent">
+            <div className="gridContainerFashion">
+                <div class="parentFashion">
                     <div className="box1">
                         <a href="">
                             <img
@@ -108,7 +108,7 @@ export default function Fashion() {
                     <h1>This Week Collection</h1>
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-fashion">
                                 <h4>Men T-shirt</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -125,7 +125,7 @@ export default function Fashion() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-fashion">
                                 <h4>Women Dress</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -142,7 +142,7 @@ export default function Fashion() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-fashion">
                                 <h4>Men T-shirt</h4>
                                 <div className="T-shirtImg">
                                     <a href="">

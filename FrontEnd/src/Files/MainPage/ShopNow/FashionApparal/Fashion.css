@@ -20,7 +20,7 @@
 }
 
 
-.slider-image {
+.slider-image-fashion {
     width: 100%;
     height: 100%;
     transition: opacity 0.6s ease-in-out;
@@ -74,11 +74,12 @@
 
 /* ---- Grid section --------------------------- */
 
-.gridContainer{
+.gridContainerFashion{
     margin: 60px;
     margin-bottom: 0px;
 }
-.parent {
+
+.parentFashion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -128,13 +129,12 @@
     gap: 30px;
 }
 
-.cardSec-elem {
+.cardSec-elem-fashion {
     border: 2px solid white;
-    border-radius: 10px;
     background-color: #f1f1f1;
 }
 
-.cardSec-elem:hover {
+.cardSec-elem-fashion:hover {
     box-shadow: 0 0 10px 5px rgb(243, 243, 243);
     transition: 0.5s;
 }
