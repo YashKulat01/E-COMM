@@ -43,7 +43,7 @@ export default function Grocery() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-grocery" />
 
                     {/* <button 
                               className="nav prev" 
@@ -69,9 +69,9 @@ export default function Grocery() {
                           </div> */}
             </div>
 
-            <div className="gridContainer">
+            <div className="gridContainerGrocery">
                 <h1>Top Categories</h1>
-                <div class="parent">
+                <div class="parentGrocery">
                     <div>
                         <a href="">
                             <img
