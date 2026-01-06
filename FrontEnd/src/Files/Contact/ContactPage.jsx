@@ -47,8 +47,8 @@ export default function ContactPage() {
                 </header>
             </div>
             {/* <!-- Body Container ----------------------------------- --> */}
-            <div className="bodyContainer">
-                <div className="container">
+            <div className="bodyContainerContact">
+                <div className="containerContactPage">
                     {/* <!-- BodyContainer> Contact heading sec -------------- --> */}
                     <div className="contactHeading">
                         <p>
@@ -63,7 +63,7 @@ export default function ContactPage() {
                             English and Spanish and is always happy to help!
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrContactPage" />
                     {/* <!-- BodyContainer> Info sec -------------- --> */}
                     <div className="infoSec">
                         <div className="storeAddSec">

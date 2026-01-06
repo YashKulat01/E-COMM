@@ -7,8 +7,8 @@ import cartLogo from '../SignIn/Shopping-cart-2.png'
 export default function SignUp() {
     return (
         <>
-            <div className="bodyContainer">
-                <div className="container">
+            <div className="bodyContainerSignUp">
+                <div className="containerSignUp">
                     <form action="">
                         <div className="formIcon">
                             <a href="/Codes/Front-end/Main-page/Main-page.html" >
@@ -25,7 +25,7 @@ export default function SignUp() {
                                 Please fill in this form to create an account.
                             </p>
                             <p></p>
-                            <hr className="bodyHr" />
+                            <hr className="bodyHrSignUp" />
                             <div>
                                 <label>
                                     <b>

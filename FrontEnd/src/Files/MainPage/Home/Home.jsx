@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-home" />
 
                     {/* <button 
                     className="nav prev" 
@@ -82,7 +82,7 @@ export default function Home() {
                     </h1>
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Men T-shirt</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -100,7 +100,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Women Dress</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -118,7 +118,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Men T-shirt</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -143,7 +143,7 @@ export default function Home() {
                     </h1>
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Phones</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -161,7 +161,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Laptops</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -179,7 +179,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Computers</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -204,7 +204,7 @@ export default function Home() {
                     </h1>
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Furnitures</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -222,7 +222,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Home Décor</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -240,7 +240,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-home">
                                 <h4>Bedding & Mattresses</h4>
                                 <div className="T-shirtImg">
                                     <a href="">

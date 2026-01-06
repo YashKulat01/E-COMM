@@ -1,17 +1,12 @@
-.mainStruc {
-    width: 100%;
-    height: 100%;
-}
-
-.bodyContainer{
+.bodyContainerSignUp{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.containerSignUp {
     margin-top: 20px;
-    width: auto;
+    width: 350px;
     padding: 20px;
     animation: move 2s;
 }
@@ -26,7 +21,7 @@
     }
 }
 
-.bodyHr {
+.bodyHrSignUp {
     height: 0.6px;
     background-color: rgb(255, 255, 255);
     margin-top: 2px;
@@ -47,6 +42,15 @@
 .signUpSec h1 {
     text-align: center;
     font-weight: normal;
+}
+
+.signUpSec h4{
+    color: white;
+    font-size: 40px;
+}
+
+.signUpSec p{
+    color: white;
 }
 
 .signUpSec label {

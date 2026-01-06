@@ -50,8 +50,8 @@ export default function TermsConditions() {
             </div>
 
             {/* <!-- Body Container ----------------------------------- --> */}
-            <div className="bodyContainer">
-                <div className="container">
+            <div className="bodyContainerTC">
+                <div className="containerTC">
                     {/* <!-- Body Container> Terms & Condition Section -------------------- --> */}
                     <div className="Tcsec">
                         {/* <!-- Body Container> Terms & Condition Section> Terms of Use sec  -------------------- --> */}
@@ -89,7 +89,7 @@ export default function TermsConditions() {
                                 or use our services.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Return And Refunds sec  -------------------- --> */}
                         <div>
                             <h2>
@@ -116,7 +116,7 @@ export default function TermsConditions() {
                                 possible.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Order Cancellation/Modification sec  -------------------- --> */}
                         <div>
                             <h2>
@@ -130,7 +130,7 @@ export default function TermsConditions() {
                                 return your order to us once you’ve received it.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Shipping And Delivery sec  -------------------- --> */}
                         <div>
                             <h2>
@@ -155,7 +155,7 @@ export default function TermsConditions() {
                                 International: 4 - 10 business days
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Duties and International Fees sec   -------------------- --> */}
                         <div>
                             <h2>
@@ -168,7 +168,7 @@ export default function TermsConditions() {
                                 local customs office or information on fees before placing your order.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Data Protection sec -------------------- --> */}
                         <div>
                             <h2>
@@ -206,7 +206,7 @@ export default function TermsConditions() {
                                 are processed through a gateway provider and are not stored or processed on our servers.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Privacy Policy sec -------------------- --> */}
                         <div>
                             <h2>
@@ -220,7 +220,7 @@ export default function TermsConditions() {
                                 Socket Layer (SSL) echnology.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Cookies sec -------------------- --> */}
                         <div>
                             <h2>
@@ -270,7 +270,7 @@ export default function TermsConditions() {
                                 Please note, the deactivation of cookies may impair the functionality of this website.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Contact Form sec  -------------------- --> */}
                         <div>
                             <h2>
@@ -283,7 +283,7 @@ export default function TermsConditions() {
                                 case of additional inquiries. That data will not be passed on without your permission.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Newsletter sec -------------------- --> */}
                         <div>
                             <h2>
@@ -301,7 +301,7 @@ export default function TermsConditions() {
                                 be withdrawn at any time via the "Unsubscribe" link within the newsletter.
                             </p>
                         </div>
-                        <hr className="bodyHr" />
+                        <hr className="bodyHrTC" />
                         {/* <!-- Body Container> Terms & Condition Section> Final Disclaimer sec -------------------- --> */}
                         <div>
                             <h2>

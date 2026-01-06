@@ -1,16 +1,15 @@
-.bodyContainer{
+.bodyContainerSignIn{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.containerSignIn {
     margin-top: 20px;
     width: auto;
     padding: 20px;
     animation: move 2s;
     background-color: rgb(45,104,196);
-    border: 2px solid white;
 }
 
 @keyframes move {
@@ -23,7 +22,7 @@
     }
 }
 
-.bodyHr {
+.bodyHrSignIn {
     height: 0.6px;
     background-color: rgb(255, 255, 255);
     margin-top: 2px;

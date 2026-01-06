@@ -9,7 +9,7 @@ import ContactPage from './Files/Contact/ContactPage.jsx'
 import TermsConditions from './Files/Terms&Conditions/TermsConditions.jsx'
 import TermsPolicy from './Files/Terms&Policy/TermsPolicy.jsx'
 import SignIn from './Files/SignIn/SignIn.jsx'
-// import SignUp from './Files/SignUp/SignUp.jsx'
+import SignUp from './Files/SignUp/SignUp.jsx'
 import Home from './Files/MainPage/Home/Home.jsx'
 import ShopNow from './Files/MainPage/ShopNow/ShopNow.jsx'
 import Fashion from './Files/MainPage/ShopNow/FashionApparal/Fashion.jsx'
@@ -34,8 +34,10 @@ function App() {
       {/* <ContactPage/> */}
       {/* <TermsConditions/> */}
       {/* <TermsPolicy/> */}
-      <SignIn/>
-      {/* <Home/> */}
+      {/* <SignIn/> */}
+      {/* <SignUp/> */}
+
+      <Home/>
       {/* <ShopNow/> */}
       {/* <Fashion/> */}
       {/* <Electronics /> */}

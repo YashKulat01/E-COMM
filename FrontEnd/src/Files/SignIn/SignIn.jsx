@@ -7,8 +7,8 @@ import cartLogo from '../SignIn/Shopping-cart-2.png'
 export default function SignIn() {
     return (
         <>
-            <div className="bodyContainer">
-                <div className="container">
+            <div className="bodyContainerSignIn">
+                <div className="containerSignIn">
                     <form action="" id="signInForm">
                         <div className="formIcon">
                             <a href="/Codes/Front-end/Home-page/index.html">
@@ -25,7 +25,7 @@ export default function SignIn() {
                                 Welcome Back!! Please Enter your details
                             </p>
                             <p className="errorMsg"></p>
-                            <hr className="bodyHr" />
+                            <hr className="bodyHrSignIn" />
 
                             <div>
                                 <label>

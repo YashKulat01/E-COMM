@@ -1,5 +1,22 @@
 /* ---- Body container  sec ------------------------------------------*/
 
+/* ---- Body container  sec ---------------*/
+.bodyContainerTP {
+    padding: 40px;
+}
+
+.containerTP {
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.bodyHrTP {
+    height: 0.6px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2px;
+    border: none;
+}
+
 .Tpsec {
     background-color: #fff;
     padding: 30px 80px;

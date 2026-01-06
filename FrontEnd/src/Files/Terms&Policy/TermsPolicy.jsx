@@ -50,7 +50,7 @@ export default function TermsPolicy() {
             </div>
 
             {/* <!-- Body Container ----------------------------------- --> */}
-            <div className="bodyContainer">
+            <div className="bodyContainerTP">
                 {/* <!-- Body Container> Terms & Privacy Section -------------------- --> */}
                 <div className="Tpsec">
                     {/* <!-- Body Container> Terms & Privacy Section> Introduction sec  -------------------- --> */}
@@ -72,7 +72,7 @@ export default function TermsPolicy() {
                             website.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Consent sec  -------------------- --> */}
                     <div>
@@ -81,7 +81,7 @@ export default function TermsPolicy() {
                             By using our website, you hereby consent to our Privacy Policy and agree to its terms.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Information we collect sec  -------------------- --> */}
                     <div>
@@ -101,7 +101,7 @@ export default function TermsPolicy() {
                             as name, company name, address, email address, and telephone number.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> How we use your information sec  -------------------- --> */}
                     <div>
@@ -135,7 +135,7 @@ export default function TermsPolicy() {
                             </li>
                         </ul>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Log Files sec  -------------------- --> */}
                     <div>
@@ -150,7 +150,7 @@ export default function TermsPolicy() {
                             movement on the website, and gathering demographic information.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Cookies and Web Beacons sec  -------------------- --> */}
                     <div>
@@ -162,7 +162,7 @@ export default function TermsPolicy() {
                             content based on visitors' browser type and/or other information.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> DoubleClick DART Cookie sec  -------------------- --> */}
                     <div>
@@ -194,7 +194,7 @@ export default function TermsPolicy() {
                             </a>
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Advertising Partners Privacy Policies sec  -------------------- --> */}
                     <div>
@@ -215,7 +215,7 @@ export default function TermsPolicy() {
                             advertisers.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Third-Party Privacy Policies sec  -------------------- --> */}
                     <div>
@@ -233,7 +233,7 @@ export default function TermsPolicy() {
                             respective websites. What Are Cookies?
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> CCPA Privacy Policy sec  -------------------- --> */}
                     <div>
@@ -258,7 +258,7 @@ export default function TermsPolicy() {
                             these rights, please contact us.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> GDPR Privacy Policy sec  -------------------- --> */}
                     <div>
@@ -297,7 +297,7 @@ export default function TermsPolicy() {
                             these rights, please contact us.
                         </p>
                     </div>
-                    <hr className="bodyHr" />
+                    <hr className="bodyHrTP" />
 
                     {/* <!-- Body Container> Terms & Privacy Section> Children's Information sec  -------------------- --> */}
                     <div>

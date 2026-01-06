@@ -1,10 +1,19 @@
 /* ---- Body container  sec ---------------*/
-.bodyContainer{
+.bodyContainerTC{
     padding: 40px;
 }
-.container{
+.containerTC{
     border-radius: 20px;
+    background-color: #fff;
 }
+
+.bodyHrTC {
+    height: 0.6px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2px;
+    border: none;
+}
+
 .Tcsec {
     padding: 10px 30px;
     color: rgb(0, 0, 0);
