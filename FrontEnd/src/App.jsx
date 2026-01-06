@@ -39,8 +39,8 @@ function App() {
 
       {/* <Home/> */}
       {/* <ShopNow/> */}
-      <Fashion/>
-      {/* <Electronics /> */}
+      {/* <Fashion/> */}
+      <Electronics />
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
       {/* <Beauty/> */}
