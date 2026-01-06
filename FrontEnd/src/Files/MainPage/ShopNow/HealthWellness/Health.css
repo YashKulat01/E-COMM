@@ -70,11 +70,11 @@ h1 {
     text-align: center;
 }
 
-.gridContainer {
+.gridContainerHealth {
     margin: 60px;
 }
 
-.parent {
+.parentHealth {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -84,7 +84,7 @@ h1 {
     padding: 0;
 }
 
-.parent img {
+.parentHealth img {
     height: 300px;
     width: 80%;
     border-radius: 20px;

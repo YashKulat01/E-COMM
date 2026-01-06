@@ -61,9 +61,9 @@ export default function Health() {
             </div>
 
 
-            <div className="gridContainer">
+            <div className="gridContainerHealth">
                 <h1>Top Categories</h1>
-                <div className="parent">
+                <div className="parentHealth">
                     <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
