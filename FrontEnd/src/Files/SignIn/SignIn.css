@@ -5,7 +5,7 @@
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 20px;
     width: auto;
     padding: 20px;
     animation: move 2s;
@@ -48,6 +48,8 @@
 
 .signInSec p{
     font-weight: bold;
+    font-size: 15px;
+    color: white;
 }
 
 .signInSec label {
