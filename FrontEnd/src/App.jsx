@@ -40,7 +40,7 @@ function App() {
       {/* <Home/> */}
       {/* <ShopNow/> */}
       {/* <Fashion/> */}
-      <Electronics />
+      {/* <Electronics /> */}
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
       {/* <Beauty/> */}

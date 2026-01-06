@@ -40,7 +40,7 @@ export default function HomeLiving() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-homeLiving" />
 
                     {/* <button 
                               className="nav prev" 
@@ -72,7 +72,7 @@ export default function HomeLiving() {
                     <h1>This Week Collection</h1>
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Furniture</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -89,7 +89,7 @@ export default function HomeLiving() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Home Decor</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -106,7 +106,7 @@ export default function HomeLiving() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Bedding & Mattress</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -133,7 +133,7 @@ export default function HomeLiving() {
                 <div className="collectionContainer">
                     <div className="cardSec">
                         <div className="cardSecContainer">
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Furniture</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -150,7 +150,7 @@ export default function HomeLiving() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Home Decor</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
@@ -167,7 +167,7 @@ export default function HomeLiving() {
                                     </button>
                                 </div>
                             </div>
-                            <div className="cardSec-elem">
+                            <div className="cardSec-elem-homeLiving">
                                 <h4>Bedding & Mattress</h4>
                                 <div className="T-shirtImg">
                                     <a href="">
