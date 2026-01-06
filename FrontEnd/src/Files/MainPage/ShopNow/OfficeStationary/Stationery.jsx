@@ -25,7 +25,7 @@ export default function Stationery() {
                     <div className="slider">
                         <img src={banners[current]}
                             alt="slide"
-                            className="slider-image" />
+                            className="slider-image-stationary" />
 
                         {/* <button 
                                           className="nav prev" 
@@ -52,10 +52,10 @@ export default function Stationery() {
                 </div>
 
 
-                <div className="gridContainer">
+                <div className="gridContainerStationary">
                     <h1>Top Categories</h1>
-                    <div className="parent">
-                        <div className="cardSec-elem">
+                    <div className="parentStationary">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
@@ -73,7 +73,7 @@ export default function Stationery() {
                             </div>
                         </div>
 
-                        <div className="cardSec-elem">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
@@ -91,7 +91,7 @@ export default function Stationery() {
                             </div>
                         </div>
 
-                        <div className="cardSec-elem">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
@@ -109,7 +109,7 @@ export default function Stationery() {
                             </div>
                         </div>
 
-                        <div className="cardSec-elem">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
@@ -127,7 +127,7 @@ export default function Stationery() {
                             </div>
                         </div>
 
-                        <div className="cardSec-elem">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
@@ -145,7 +145,7 @@ export default function Stationery() {
                             </div>
                         </div>
 
-                        <div className="cardSec-elem">
+                        <div className="cardSec-elem-stationary">
                             <h4>Men T-shirt</h4>
                             <div className="T-shirtImg">
                                 <a href="">
