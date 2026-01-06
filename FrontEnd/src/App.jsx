@@ -45,8 +45,8 @@ function App() {
       {/* <Grocery/> */}
       {/* <Beauty/> */}
       {/* <Health/> */}
-      <Sport/>
-      {/* <Baby/> */}
+      {/* <Sport/> */}
+      <Baby/>
       {/* <Stationery/> */}
       {/* <Cart/> */}
     </>

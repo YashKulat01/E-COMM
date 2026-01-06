@@ -34,7 +34,7 @@ export default function Baby() {
         <div className="slider">
           <img src={banners[current]}
             alt="slide"
-            className="slider-image" />
+            className="slider-image-baby" />
 
           {/* <button 
                                   className="nav prev" 
@@ -61,10 +61,10 @@ export default function Baby() {
       </div>
 
 
-      <div className="gridContainer">
+      <div className="gridContainerBaby">
         <h1>Top Categories</h1>
-        <div className="parent">
-          <div className="cardSec-elem">
+        <div className="parentBaby">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
@@ -82,7 +82,7 @@ export default function Baby() {
             </div>
           </div>
 
-          <div className="cardSec-elem">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
@@ -100,7 +100,7 @@ export default function Baby() {
             </div>
           </div>
 
-          <div className="cardSec-elem">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
@@ -118,7 +118,7 @@ export default function Baby() {
             </div>
           </div>
 
-          <div className="cardSec-elem">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
@@ -136,7 +136,7 @@ export default function Baby() {
             </div>
           </div>
 
-          <div className="cardSec-elem">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
@@ -154,7 +154,7 @@ export default function Baby() {
             </div>
           </div>
 
-          <div className="cardSec-elem">
+          <div className="cardSec-elem-baby">
             <h4>Men T-shirt</h4>
             <div className="T-shirtImg">
               <a href="">
