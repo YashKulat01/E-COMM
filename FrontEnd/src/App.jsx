@@ -44,8 +44,8 @@ function App() {
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
       {/* <Beauty/> */}
-      <Health/>
-      {/* <Sport/> */}
+      {/* <Health/> */}
+      <Sport/>
       {/* <Baby/> */}
       {/* <Stationery/> */}
       {/* <Cart/> */}

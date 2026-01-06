@@ -33,7 +33,7 @@ export default function Sport() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-sports" />
 
                     {/* <button 
                                 className="nav prev" 
@@ -60,10 +60,10 @@ export default function Sport() {
             </div>
 
 
-            <div className="gridContainer">
+            <div className="gridContainerSports">
                 <h1>Top Categories</h1>
-                <div className="parent">
-                    <div className="cardSec-elem">
+                <div className="parentSports">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -81,7 +81,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -99,7 +99,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -117,7 +117,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -135,7 +135,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -153,7 +153,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -171,7 +171,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -189,7 +189,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -207,7 +207,7 @@ export default function Sport() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-sports">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
