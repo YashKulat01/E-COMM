@@ -34,7 +34,7 @@ export default function Health() {
                 <div className="slider">
                     <img src={banners[current]}
                         alt="slide"
-                        className="slider-image" />
+                        className="slider-image-health" />
 
                     {/* <button 
                               className="nav prev" 
@@ -64,7 +64,7 @@ export default function Health() {
             <div className="gridContainer">
                 <h1>Top Categories</h1>
                 <div className="parent">
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -82,7 +82,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -100,7 +100,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -118,7 +118,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -136,7 +136,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -154,7 +154,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -172,7 +172,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -190,7 +190,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -208,7 +208,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -226,7 +226,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
@@ -244,7 +244,7 @@ export default function Health() {
                         </div>
                     </div>
 
-                    <div className="cardSec-elem">
+                    <div className="cardSec-elem-health">
                         <h4>Men T-shirt</h4>
                         <div className="T-shirtImg">
                             <a href="">
