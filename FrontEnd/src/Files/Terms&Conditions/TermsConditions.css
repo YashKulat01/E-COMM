@@ -13,9 +13,11 @@
 .Tcsec h2 {
     font-size: 25px;
     font-weight: normal;
+    text-align: left;
 }
 
 .Tcsec p {
     font-size: 18px;
     font-weight: normal;
+    text-align: left;
 }
