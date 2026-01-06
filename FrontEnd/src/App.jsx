@@ -43,7 +43,7 @@ function App() {
       {/* <Electronics /> */}
       {/* <HomeLiving/> */}
       {/* <Grocery/> */}
-      {/* <Beauty/> */}
+      <Beauty/>
       {/* <Health/> */}
       {/* <Sport/> */}
       {/* <Baby/> */}
